@@ -1,0 +1,39 @@
+<% include partials/header %>
+<% if(data != ''){    %>
+<div class ="col-sm-7 content" id="status" style="display:block">
+    <div class="alert alert-warning"><%= 'All Cancelled trains list on '+date %></div>
+    <table class="table-bordered">
+        <thead>
+        <tr class="alert-success">
+            <th>NO.</th>
+            <th>Train Name</th>
+            <th>Number</th>
+            <th>Type</th>
+            <th>Start Time</th>
+            <th>Source</th>
+            <th>Destination</th>
+        </tr>
+        </thead>
+        <tbody>
+
+        <% var count = 1;
+            var classVar = '';
+        data.trains.forEach(function(el, index) {
+            if(count % 2 == 0) {
+            }
+        %>
+        <tr class="info">
+            <td style="color: red;"><%= count %></td>
+            <td><%= el.name%></td>
+            <td><%= el.number%></td>
+            <td><%= el.type%></td>
+            <td><%= el.start_time%></td>
+            <td><%= el.source.name%></td>
+            <td><%= el.dest.name%> </td>
+        </tr>
+        <% count++; }); %>
+        </tbody>
+    </table>
+</div>
+<% } %>
+<% include partials/footer %>

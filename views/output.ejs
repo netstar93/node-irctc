@@ -1,0 +1,36 @@
+<% include partials/header %>
+<% if(data != ''){    %>
+<div class ="col-sm-7" id="status" style="display:block">
+    <div class="alert alert-warning"><%= data.train.name +" ("+ data.train.number +")" +" "+ data.position %></div>
+    <table class="table">
+        <thead>
+        <tr class="alert-success">
+            <th>NO.</th>
+            <th>Station Name</th>
+            <th>Sch. Arrival</th>
+            <th>Sch. Departure</th>
+            <th>Delay</th>
+            <th>Distance</th>
+        </tr>
+        </thead>
+        <tbody>
+<% var count = 1;
+   var classVar = '';
+    data.route.forEach(function(el, index) {
+    if(count % 2 == 0) {
+    }
+%>
+<tr class="info">
+    <td><%= count %></td>
+    <td><%= el.station.name%></td>
+    <td><%= el.scharr%></td>
+    <td><%= el.actdep%></td>
+    <td class ="late-time"><%= el.latemin%> min</td>
+    <td><%= el.distance%> KM</td>
+</tr>
+ <% count++; }); %>
+        </tbody>
+    </table>
+</div>
+<% } %>
+<% include partials/footer %>

@@ -1,0 +1,41 @@
+<% include partials/header %>
+<% if(data != ''){    %>
+<div class ="col-sm-7 content" id="status" style="display:block">
+    <div class="alert alert-warning"><%= 'All Rescheduled trains list on '+date %></div>
+    <table class="table-bordered">
+        <thead>
+        <tr class="alert-success">
+            <th>NO.</th>
+            <th>Train Name</th>
+            <th>Number</th>
+            <th>Rescheduled Date</th>
+            <th>Rescheduled Time</th>
+            <th>Source Station</th>
+            <th>Destination Station</th>
+            <th>Time Difference</th>
+        </tr>
+        </thead>
+        <tbody>
+
+        <% var count = 1;
+            var classVar = '';
+        data.trains.forEach(function(el, index) {
+            if(count % 2 == 0) {
+            }
+        %>
+        <tr class="info">
+            <td style="color: red;"><%= count %></td>
+            <td><%= el.name%></td>
+            <td><%= el.number%></td>
+            <td><%= el.rescheduled_date%></td>
+            <td><%= el.rescheduled_time%></td>
+            <td><%= el.from_station.name%> </td>
+            <td><%= el.to_station.name%> </td>
+            <td><%= el.time_diff%> </td>
+        </tr>
+        <% count++; }); %>
+        </tbody>
+    </table>
+</div>
+<% } %>
+<% include partials/footer %>

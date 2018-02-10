@@ -1,0 +1,48 @@
+<% include partials/header %>
+  <page id="<%=pageID%>">
+        <div class="col-sm-7">
+            <h1>LIVE TRAIN STATUS</h1>
+            <form class = "live_status" action = "/api" accept-charset="UTF-8" method="post" name="running_status_form" role="form">
+                <p>TRAIN NO. / NAME</p>
+                <div class="form-group">
+                    <input type="text" name="train_number" value = ''class="form-control trainpicker select_focus ui-autocomplete-input" placeholder="Please enter train number or name" id="train_running_status" value="" autofocus="" autocomplete="off" required>
+                    <span class="clear_input" title="clear field" style="display: none;">
+                <i class="fa fa-remove fa-lg"></i>
+            </span>
+                    <div class="alrt-box" style="display: none;">
+                        <p>
+                            <img src="/assets/exclamation.png" alt="exclamation" class="img-responsive">
+                            <span id="valid_err">Please enter a train number!!!</span>
+                        </p>
+                    </div>
+                </div>
+
+                <p>TRAIN STARTED</p>
+                <div class="col-md-12">
+                    <div class="ry-cntrl-group">
+                        <label class="ry-cntrl ry-cntrl-radio active">
+                            Today
+                            <input type="radio" name="start_date" value="0" checked="checked">
+                        </label>
+                        <label class="ry-cntrl ry-cntrl-radio">
+                            Yesterday
+                            <input type="radio" name="start_date" value="1">
+                        </label>
+                        <label class="ry-cntrl ry-cntrl-radio">
+                            2 days ago
+                            <input type="radio" name="start_date" value="2">
+                        </label>
+                        <label class="ry-cntrl ry-cntrl-radio">
+                            3 days ago
+                            <input type="radio" name="start_date" value="3">
+                        </label>
+                    </div>
+                    <input type="hidden" name="type" value="live">
+                </div>
+                <div class="form-group clearfix">
+                    <button class="btn btn-lg btn-success" type="submit" id="btn1" >CHECK STATUS</button>
+                </div>
+            </form>
+        </div>
+  </page>
+<% include partials/footer %>

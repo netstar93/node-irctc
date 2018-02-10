@@ -1,0 +1,20 @@
+<% include partials/header %>
+<page id="<%=pageID%>">
+        <div class="col-sm-7">
+            <h1>GET PNR STATUS</h1>
+            <form class = "pnr_status" action = "/api" accept-charset="UTF-8" method="post" name="running_status_form" role="form">
+                <p>PNR NUMBER</p>
+                <div class="form-group">
+                    <input type="text" name="pnr_number" value = ''class="form-control trainpicker select_focus ui-autocomplete-input" placeholder="Please enter train number or name" id="train_running_status" value="" autofocus="" autocomplete="off" required>
+                    <span class="clear_input" title="clear field" style="display: none;">
+                </div>
+                <input type="hidden" name="type" value="pnr">
+                <i class="fa fa-remove fa-lg"></i>
+                <div class="form-group clearfix">
+                    <button class="btn btn-lg btn-success" type="submit" id="btn1" >CHECK STATUS</button>
+                </div>
+            </form>
+        </div>
+</page>
+
+<% include partials/footer %>

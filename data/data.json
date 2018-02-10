@@ -1,0 +1,510 @@
+{
+  "position":"Train departed from SARJU(SUJ) and late by 50 minutes.",
+  "route":[
+    {
+      "has_arrived":true,
+      "latemin":0,
+      "day":0,
+      "status":"0 mins late",
+      "schdep":"09:30",
+      "scharr_date":"9 Feb 2018",
+      "has_departed":true,
+      "actarr":"00:00",
+      "distance":0,
+      "scharr":"Source",
+      "station":{
+        "lat":25.4676424,
+        "lng":85.9904136,
+        "code":"BJU",
+        "name":"BARAUNI JN"
+      },
+      "actarr_date":"9 Feb 2018",
+      "actdep":"09:30"
+    },
+    {
+      "has_arrived":true,
+      "latemin":6,
+      "day":0,
+      "status":"6 mins late",
+      "schdep":"10:01",
+      "scharr_date":"9 Feb 2018",
+      "has_departed":true,
+      "actarr":"10:05",
+      "distance":27,
+      "scharr":"09:59",
+      "station":{
+        "lat":25.6675039,
+        "lng":85.83460459999999,
+        "code":"DSS",
+        "name":"DALSINGH SARAI"
+      },
+      "actarr_date":"9 Feb 2018",
+      "actdep":"10:07"
+    },
+    {
+      "has_arrived":true,
+      "latemin":15,
+      "day":0,
+      "status":"15 mins late",
+      "schdep":"10:30",
+      "scharr_date":"9 Feb 2018",
+      "has_departed":true,
+      "actarr":"10:40",
+      "distance":50,
+      "scharr":"10:25",
+      "station":{
+        "lat":25.75,
+        "lng":85.916667,
+        "code":"SPJ",
+        "name":"SAMASTIPUR JN"
+      },
+      "actarr_date":"9 Feb 2018",
+      "actdep":"10:45"
+    },
+    {
+      "has_arrived":true,
+      "latemin":40,
+      "day":0,
+      "status":"40 mins late",
+      "schdep":"11:20",
+      "scharr_date":"9 Feb 2018",
+      "has_departed":true,
+      "actarr":"11:55",
+      "distance":102,
+      "scharr":"11:15",
+      "station":{
+        "lat":26.166667,
+        "lng":85.416667,
+        "code":"MFP",
+        "name":"MUZAFFARPUR JN"
+      },
+      "actarr_date":"9 Feb 2018",
+      "actdep":"12:00"
+    },
+    {
+      "has_arrived":true,
+      "latemin":43,
+      "day":0,
+      "status":"43 mins late",
+      "schdep":"12:10",
+      "scharr_date":"9 Feb 2018",
+      "has_departed":true,
+      "actarr":"12:48",
+      "distance":156,
+      "scharr":"12:05",
+      "station":{
+        "lat":25.6905568,
+        "lng":85.2090094,
+        "code":"HJP",
+        "name":"HAJIPUR JN"
+      },
+      "actarr_date":"9 Feb 2018",
+      "actdep":"12:49"
+    },
+    {
+      "has_arrived":true,
+      "latemin":37,
+      "day":0,
+      "status":"37 mins late",
+      "schdep":"12:22",
+      "scharr_date":"9 Feb 2018",
+      "has_departed":true,
+      "actarr":"12:57",
+      "distance":162,
+      "scharr":"12:20",
+      "station":{
+        "lat":27.88121275,
+        "lng":82.5947818084139,
+        "code":"SEE",
+        "name":"SONPUR JN"
+      },
+      "actarr_date":"8 Feb 2018",
+      "actdep":"12:57"
+    },
+    {
+      "has_arrived":true,
+      "latemin":40,
+      "day":0,
+      "status":"40 mins late",
+      "schdep":"13:45",
+      "scharr_date":"9 Feb 2018",
+      "has_departed":true,
+      "actarr":"14:20",
+      "distance":215,
+      "scharr":"13:40",
+      "station":{
+        "lat":25.7784105,
+        "lng":84.7514507,
+        "code":"CPR",
+        "name":"CHHAPRA"
+      },
+      "actarr_date":"9 Feb 2018",
+      "actdep":"14:25"
+    },
+    {
+      "has_arrived":true,
+      "latemin":45,
+      "day":0,
+      "status":"45 mins late",
+      "schdep":"14:35",
+      "scharr_date":"9 Feb 2018",
+      "has_departed":true,
+      "actarr":"15:15",
+      "distance":276,
+      "scharr":"14:30",
+      "station":{
+        "lat":26.166667,
+        "lng":84.5,
+        "code":"SV",
+        "name":"SIWAN JN"
+      },
+      "actarr_date":"9 Feb 2018",
+      "actdep":"15:20"
+    },
+    {
+      "has_arrived":true,
+      "latemin":41,
+      "day":0,
+      "status":"41 mins late",
+      "schdep":"15:30",
+      "scharr_date":"9 Feb 2018",
+      "has_departed":true,
+      "actarr":"16:10",
+      "distance":346,
+      "scharr":"15:29",
+      "station":{
+        "lat":26.5079698,
+        "lng":83.7819579,
+        "code":"DEOS",
+        "name":"DEORIA SADAR"
+      },
+      "actarr_date":"9 Feb 2018",
+      "actdep":"16:12"
+    },
+    {
+      "has_arrived":false,
+      "latemin":50,
+      "day":0,
+      "status":"50 mins late",
+      "schdep":"17:05",
+      "scharr_date":"9 Feb 2018",
+      "has_departed":false,
+      "actarr":"17:40",
+      "distance":395,
+      "scharr":"16:50",
+      "station":{
+        "lat":26.7600217,
+        "lng":83.3668129,
+        "code":"GKP",
+        "name":"GORAKHPUR"
+      },
+      "actarr_date":"9 Feb 2018",
+      "actdep":"17:45"
+    },
+    {
+      "has_arrived":true,
+      "latemin":55,
+      "day":0,
+      "status":"55 mins late",
+      "schdep":"17:45",
+      "scharr_date":"9 Feb 2018",
+      "has_departed":true,
+      "actarr":"18:38",
+      "distance":430,
+      "scharr":"17:43",
+      "station":{
+        "lat":26.7725573,
+        "lng":83.0691401,
+        "code":"KLD",
+        "name":"KHALILABAD"
+      },
+      "actarr_date":"9 Feb 2018",
+      "actdep":"18:40"
+    },
+    {
+      "has_arrived":true,
+      "latemin":63,
+      "day":0,
+      "status":"63 mins late",
+      "schdep":"18:13",
+      "scharr_date":"9 Feb 2018",
+      "has_departed":true,
+      "actarr":"19:13",
+      "distance":459,
+      "scharr":"18:10",
+      "station":{
+        "lat":27.25,
+        "lng":83.0,
+        "code":"BST",
+        "name":"BASTI"
+      },
+      "actarr_date":"9 Feb 2018",
+      "actdep":"19:16"
+    },
+    {
+      "has_arrived":true,
+      "latemin":50,
+      "day":0,
+      "status":"50 mins late",
+      "schdep":"19:40",
+      "scharr_date":"9 Feb 2018",
+      "has_departed":true,
+      "actarr":"20:25",
+      "distance":549,
+      "scharr":"19:35",
+      "station":{
+        "lat":27.25,
+        "lng":82.0,
+        "code":"GD",
+        "name":"GONDA JN"
+      },
+      "actarr_date":"9 Feb 2018",
+      "actdep":"20:30"
+    },
+    {
+      "has_arrived":false,
+      "latemin":57,
+      "day":0,
+      "status":"57 mins late",
+      "schdep":"21:10",
+      "scharr_date":"9 Feb 2018",
+      "has_departed":false,
+      "actarr":"22:05",
+      "distance":637,
+      "scharr":"21:08",
+      "station":{
+        "lat":26.9469069,
+        "lng":81.375995181223,
+        "code":"BBK",
+        "name":"BARABANKI JN"
+      },
+      "actarr_date":"9 Feb 2018",
+      "actdep":"22:06"
+    },
+    {
+      "has_arrived":false,
+      "latemin":48,
+      "day":0,
+      "status":"48 mins late",
+      "schdep":"22:05",
+      "scharr_date":"9 Feb 2018",
+      "has_departed":false,
+      "actarr":"22:43",
+      "distance":666,
+      "scharr":"21:55",
+      "station":{
+        "lat":26.8381,
+        "lng":80.9346001,
+        "code":"LKO",
+        "name":"LUCKNOW"
+      },
+      "actarr_date":"9 Feb 2018",
+      "actdep":"22:53"
+    },
+    {
+      "has_arrived":false,
+      "latemin":24,
+      "day":1,
+      "status":"24 mins late",
+      "schdep":"23:50",
+      "scharr_date":"9 Feb 2018",
+      "has_departed":false,
+      "actarr":"00:09",
+      "distance":739,
+      "scharr":"23:45",
+      "station":{
+        "lat":26.4547354,
+        "lng":80.3506961,
+        "code":"CNB",
+        "name":"KANPUR CENTRAL"
+      },
+      "actarr_date":"10 Feb 2018",
+      "actdep":"00:14"
+    },
+    {
+      "has_arrived":false,
+      "latemin":22,
+      "day":1,
+      "status":"22 mins late",
+      "schdep":"01:42",
+      "scharr_date":"10 Feb 2018",
+      "has_departed":false,
+      "actarr":"02:02",
+      "distance":878,
+      "scharr":"01:40",
+      "station":{
+        "lat":26.8063069,
+        "lng":78.9969944,
+        "code":"ETW",
+        "name":"ETAWAH"
+      },
+      "actarr_date":"10 Feb 2018",
+      "actdep":"02:04"
+    },
+    {
+      "has_arrived":false,
+      "latemin":2,
+      "day":1,
+      "status":"2 mins late",
+      "schdep":"03:08",
+      "scharr_date":"10 Feb 2018",
+      "has_departed":false,
+      "actarr":"03:07",
+      "distance":970,
+      "scharr":"03:05",
+      "station":{
+        "lat":27.2132859,
+        "lng":78.2371117,
+        "code":"TDL",
+        "name":"TUNDLA JN"
+      },
+      "actarr_date":"10 Feb 2018",
+      "actdep":"03:10"
+    },
+    {
+      "has_arrived":false,
+      "latemin":2,
+      "day":1,
+      "status":"2 mins late",
+      "schdep":"04:15",
+      "scharr_date":"10 Feb 2018",
+      "has_departed":false,
+      "actarr":"04:14",
+      "distance":1048,
+      "scharr":"04:12",
+      "station":{
+        "lat":27.833333,
+        "lng":78.166667,
+        "code":"ALJN",
+        "name":"ALIGARH JN"
+      },
+      "actarr_date":"10 Feb 2018",
+      "actdep":"04:17"
+    },
+    {
+      "has_arrived":false,
+      "latemin":0,
+      "day":1,
+      "status":"0 mins late",
+      "schdep":"05:57",
+      "scharr_date":"10 Feb 2018",
+      "has_departed":false,
+      "actarr":"05:55",
+      "distance":1161,
+      "scharr":"05:55",
+      "station":{
+        "lat":28.6711527,
+        "lng":77.4120356,
+        "code":"GZB",
+        "name":"GHAZIABAD"
+      },
+      "actarr_date":"10 Feb 2018",
+      "actdep":"05:57"
+    },
+    {
+      "has_arrived":false,
+      "latemin":0,
+      "day":1,
+      "status":"0 mins late",
+      "schdep":"Destination",
+      "scharr_date":"10 Feb 2018",
+      "has_departed":false,
+      "actarr":"06:45",
+      "distance":1187,
+      "scharr":"06:45",
+      "station":{
+        "lat":28.6141793,
+        "lng":77.2022662,
+        "code":"NDLS",
+        "name":"NEW DELHI"
+      },
+      "actarr_date":"10 Feb 2018",
+      "actdep":"00:00"
+    }
+  ],
+  "start_date":"9 Feb 2018",
+  "train":{
+    "classes":[
+      {
+        "available":"Y",
+        "code":"2A",
+        "name":"SECOND AC"
+      },
+      {
+        "available":"N",
+        "code":"FC",
+        "name":"FIRST CLASS"
+      },
+      {
+        "available":"Y",
+        "code":"3A",
+        "name":"THIRD AC"
+      },
+      {
+        "available":"N",
+        "code":"2S",
+        "name":"SECOND SEATING"
+      },
+      {
+        "available":"N",
+        "code":"3E",
+        "name":"3rd AC ECONOMY"
+      },
+      {
+        "available":"Y",
+        "code":"1A",
+        "name":"FIRST AC"
+      },
+      {
+        "available":"Y",
+        "code":"SL",
+        "name":"SLEEPER CLASS"
+      },
+      {
+        "available":"N",
+        "code":"CC",
+        "name":"AC CHAIR CAR"
+      }
+    ],
+    "name":"VAISHALI EXP",
+    "number":"12553",
+    "days":[
+      {
+        "code":"MON",
+        "runs":"Y"
+      },
+      {
+        "code":"TUE",
+        "runs":"Y"
+      },
+      {
+        "code":"WED",
+        "runs":"Y"
+      },
+      {
+        "code":"THU",
+        "runs":"Y"
+      },
+      {
+        "code":"FRI",
+        "runs":"Y"
+      },
+      {
+        "code":"SAT",
+        "runs":"Y"
+      },
+      {
+        "code":"SUN",
+        "runs":"Y"
+      }
+    ]
+  },
+  "current_station":{
+    "lat":27.1117719,
+    "lng":81.6350483,
+    "code":"SUJ",
+    "name":"SARJU"
+  },
+  "debit":2,
+  "response_code":200
+}
