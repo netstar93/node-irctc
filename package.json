@@ -1,12 +1,12 @@
 {
   "name": "nodejs",
   "version": "1.0.0",
-  "description": "csgeeks ",
+  "description": "magelog ",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon --watch app --ignore feedback.json"
+    "start": "node app.js"
   },
-  "author": "vijay",
+  "author": "Neal",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.18.1",
