@@ -13,7 +13,7 @@ router.get('/live', function(req, res){
 });
 
 router.get('/op', function(req, res){
-    res.render('output',{
+    res.render('op-pnr',{
         pageTitle: 'live status',
         pageID:'live',
     });
@@ -30,7 +30,6 @@ router.get('/trains/:type', function(req, res){
         renderer = 'rs-trains';
     }
     var Url = "https://api.railwayapi.com/v2/"+mode+"/date/"+ date +"/apikey/"+apikey;
-    console.log("Url : ",Url);
     var options = { url:Url, headers: {'connection': 'Keep-Alive'}};
     request(Url, function (error, response, data) {
         if(error) {
@@ -40,7 +39,7 @@ router.get('/trains/:type', function(req, res){
         if (!error && response.statusCode == 200) {
 
             var data = JSON.parse(data);
-            console.log("data : ",data);
+            // console.log("data : ",data);
             res.render(renderer ,
                 {data : data , pageTitle: mode , pageID:pageID ,date:date , type:type});
         }
@@ -71,6 +70,7 @@ router.post('/api', function(req,res){
     }
     else if(type == 'pnr'){
         pageID = 'pnrop';
+        renderer = 'op-pnr';
         var pnr_number = req.body.pnr_number;
         Url = "https://api.railwayapi.com/v2/pnr-status/pnr/"+pnr_number+"/apikey/"+apikey;
     }
@@ -87,7 +87,7 @@ router.post('/api', function(req,res){
             return false;
         }
         if (!error && response.statusCode == 200) {
-            // console.log("data : ",data);
+            console.log("data : ",data);
             var data = JSON.parse(data);
             res.render(renderer ,
                 {data : data , pageTitle: pageTitle , pageID:pageID ,date:date});

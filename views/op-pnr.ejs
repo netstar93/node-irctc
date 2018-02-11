@@ -1,0 +1,35 @@
+<% include partials/header %>
+<% if(data != ''){   chart = data.chart_prepared;
+ chart = chart ? "YES" : "NO" ; %>
+<div class ="col-sm-7" id="status" style="display:block">
+    <div class="alert alert-warning"> PNR Number :: <%= data.pnr %></div>
+    <table class="table">
+        <thead>
+        <tr class="alert-success">
+            <th>Train Name</th>
+            <th>Train Number</th>
+            <th>Travelling Date</th>
+            <th>Chart Prepared</th>
+            <th>Class</th>
+            <th>From</th>
+            <th>To</th>
+            <th>Boarding Point</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td><%= data.train.name%></td>
+            <td><%= data.train.number%></td>
+            <td><%= data.doj%></td>
+            <td><%= chart %></td>
+            <td><%= data.journey_class.code%></td>
+            <td><%= data.from_station.name%></td>
+            <td><%= data.to_station.name%></td>
+            <td><%= data.boarding_point.name%></td>
+        </tr>
+
+        </tbody>
+    </table>
+</div>
+<% } %>
+<% include partials/footer %>
